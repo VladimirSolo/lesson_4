@@ -1,0 +1,86 @@
+@import "null.css";
+@import "fonts.css";
+/* &display=swap */
+
+@import url(https://fonts.googleapis.com/css?family=Comforter:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,regular,italic,700,700italic,900&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  text-align: justify;
+}
+.link {
+  text-transform: uppercase;
+  word-spacing: 10px;
+  text-indent: 20px;
+  font-size: 30px;
+  color: crimson;
+  font-weight: 900;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px yellow;
+}
+h2 {
+  font-weight:bold;
+  text-align: center;
+  color: red;
+  text-decoration: overline;
+}
+h3 {
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
+}
+nav {
+  text-align: right;
+  text-decoration: line-through;
+  color: blueviolet;
+}
+p {
+  text-indent: 50px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+.text-1 {
+  text-transform: uppercase;
+}
+.text-2 {
+  font-weight: 100;
+}
+.text-3 {
+  text-shadow: 5px 5px 5px green;
+}
+.text-4 {
+  font-family: "Comforter", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: brown;
+}
+.text-5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 3;
+  font-weight: 700;
+}
+.text-6 {
+  text-transform: capitalize;
+  font-weight: 900;
+  color: teal;
+}
+.text-7 {
+  text-decoration: line-through;
+  font-style: italic;
+}
+.footer {
+  font-family: "Circular Std", sans-serif;
+  text-shadow: 10px 10px 30px rgb(69, 41, 194), 5px 2px 10px rgb(10, 3, 3);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
